@@ -35,6 +35,7 @@ public class addproject extends Main {
         drop(By.name("completionStatus"),By.xpath("//*[@id=\"completionStatus-option-0\"]"));
         String s=setInputValue(driver,"completionPercentage","2000");
         System.out.println(s);
+        System.out.println(s);
         driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/div/div[2]/div/div/div[3]/div/div[1]")).click();
         String s1=driver.findElement(By.xpath("//*[@id=\"__next\"]/div/main/div/div[2]/div/div/div[3]/div/div[2]/div/div/div[2]/div[3]/p")).getText();
         System.out.println(s1);
